@@ -1,0 +1,29 @@
+tasky-backend/
+├── .env
+├── auth
+│   ├── authRoute.js
+│   ├── login
+│   │   ├── googleLoginController.js
+│   │   └── loginController.js
+│   ├── signup
+│   │   └── signupController.js
+│   └── status
+│       └── userStatusController.js
+├── common_scripts
+│   ├── generateFolderStructure.js
+│   └── scripts_outputs
+│       ├── folder_structure.txt
+│       └── StatusCode.txt
+├── config
+│   ├── db_mysql.js
+│   └── models
+│       ├── session.js
+│       └── user.js
+├── jobs
+│   ├── job_scripts
+│   │   └── deactivateInactiveUsers.job.js
+│   └── scheduler.js
+├── package-lock.json
+├── package.json
+├── README.md
+└── server.js
